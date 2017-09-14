@@ -1,0 +1,188 @@
+body {
+	color: #666; /* set the body text colour to a grey ish hex colour */
+	margin: 0px;
+	font-family: sans-serif
+	color: #77777;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+#container{
+	margin: auto;
+}
+
+
+#header{
+		width: 100%;
+		height: 100px;
+		/*line-height: 100px;*/
+		background: #fff;
+		border-bottom: 3px solid #cccccc;
+
+}
+
+
+#heading{
+
+	padding-left: 15px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #dddddd;
+	font-size: 30px;
+
+
+}
+
+
+.header2{
+	font: sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dddddd; 
+}
+
+
+#nav {
+	list-style-type: none;
+	padding-right: 175px;
+	}
+
+
+#nav li {
+	border-right: 1px solid #cccccc;
+	margin-right: 20px;
+	padding-right: 15px;
+	float: left;
+}
+
+#nav li:last-child {
+ border-right: none;
+  }
+
+#headername{
+	color: white;
+	font: sans-serif;
+
+
+}
+#name a {
+    text-decoration: none;
+}
+
+
+
+
+#maincontent{
+	width: 50%;
+	height: 50%;
+	font-size: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	margin: 80px;
+	padding: 20px;
+	color: #4aaaa5;
+	display: inline-block;
+	vertical-align: top;
+	
+
+
+ }
+
+ .paragraph1{
+ 	color: #777777;
+
+ }
+
+ #connectwithme {
+
+	
+	background: #ffffff;
+ 	border: 1px solid #dddddd;
+ 	position: absolute;
+ 	width: 250px;
+ 	height: 175px;
+ 	/*top: 190px;
+ 	right: 175px;*/
+ 	margin: 10px;
+	padding: 15px;
+	color: #4aaaa5;
+	font-family: serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 75px;
+
+
+}
+
+#name {
+
+	margin-left: 120px;
+	width: 250px;
+	height: 70%;
+	background: #4aaaa5;
+	text-align: center;
+	padding-top: 30px;
+
+	
+}
+
+
+#others{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-top: 30px;
+
+}
+
+
+
+.headername{
+	text-align: right;
+	color: white;
+	font: serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+
+	
+} 
+
+
+.navitem{
+	color: #cccccc;
+	font-family: sans-serif, times, serif;
+}
+
+
+
+#footer{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		width: 100%;
+		height: 85px;
+		line-height: 100px;
+		background: #666666;
+		border-top: 8px solid #4aaaa5;
+
+}
+
+
+#contentNearTheBottom{
+	width: 600px;
+	height: 500px;
+	background: #222;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+
+

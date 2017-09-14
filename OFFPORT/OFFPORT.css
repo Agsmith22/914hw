@@ -1,0 +1,166 @@
+body{
+	margin: auto;
+
+}
+
+
+
+
+#header{
+	width: 100%;
+	height:100px;
+	background: #fff;
+	border-bottom: 3px solid #cccccc;
+}
+
+
+#Name {
+
+	margin-left: 120px;
+	width: 250px;
+	height: 70%;
+	background: #4aaaa5;
+	text-align: center;
+	padding-top: 30px;	
+}
+
+
+#Name a {
+    text-decoration: none;
+}
+
+
+.headerName{
+	text-align: right;
+	color: white;
+	font: serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	
+} 
+
+
+#others{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-top: 30px;
+
+}
+
+#nav li {
+	border-right: 1px solid #cccccc;
+	margin-right: 20px;
+	padding-right: 15px;
+	float: left;
+}
+
+#nav li:last-child {
+ border-right: none;
+  }
+
+ #nav {
+	list-style-type: none;
+	padding-right: 175px;
+	}
+
+.navitem{
+	color: #cccccc;
+	font-family: sans-serif, times, serif;
+	font-size: 20px;
+	
+}
+
+
+
+#connectwithme {
+
+	
+	background: #ffffff;
+ 	border: 1px solid #dddddd;
+ 	position: static;
+ 	width: 250px;
+ 	height: 175px;
+ 	/*top: 190px;
+ 	right: 175px;*/
+ 	/*margin: 10px;*/
+	padding: 15px;
+	color: #4aaaa5;
+	font-family: serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 75px;
+	margin-right: 175px;
+	float: right;
+}
+
+
+.header2{
+	font: sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dddddd; 
+}
+
+.header3{
+		padding-top: 20px;
+		padding-left: 15px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #dddddd;
+	font-size: 30px;
+	color: #4aaaa5;
+}
+
+#portbod{
+	width: 45%;
+	height: 1000%;
+	background: white;
+	margin-left: 10%;
+	margin-top: 75px;
+
+
+}
+
+#port1{
+	margin: 10px 10px 10px 100px;
+	float: left; 
+}
+
+#port2 {
+	float: right;
+	margin: 10px 100px 10px 10px;
+	border-bottom: 10px;
+	border height:;
+}
+
+#port3 {
+	margin: 10px 10px 10px 100px;
+	float: left; 
+}
+
+#port4{
+	float: right;
+	margin: 10px 100px 10px 10px;
+}
+
+#port5{
+	margin: 10px 10px 10px 100px;
+	float: left; 
+}
+
+
+#footer{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		width: 100%;
+		height: 85px;
+		line-height: 100px;
+		background: #666666;
+		border-top: 8px solid #4aaaa5;
+}
